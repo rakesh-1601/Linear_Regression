@@ -1,3 +1,6 @@
+#Hello there... myself Rakesh pandey
+#Student at NIT jalndhar(First year -CSE branch)
+#And this is minor project
 #To implement linear regression without using Sklearn
 #I have used analytical or normal method(Normalization method) to make my own LR program....
 #below is the code for Linear regression....
@@ -73,9 +76,10 @@ my_own_error_obvio_squared_mean_error(y_test,ans)
 
 
 #printing the graph...only for univariate ....and not for multivariate!!!!
-plt.scatter(x_test,y_test,color='black')
-plt.plot(x_test,ans,color='blue',linewidth=3)
-
+plt.scatter(x_test,y_test,color='black',label='Data')
+plt.plot(x_test,ans,color='blue',linewidth=3,label='Line')
+plt.legend()
+plt.title('Linear Regression using Normalization')
 plt.xticks(())
 plt.yticks(())
 plt.show()
