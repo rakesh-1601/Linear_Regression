@@ -1,6 +1,3 @@
-#Hello there... myself Rakesh pandey
-#Student at NIT jalndhar(First year -CSE branch)
-#And this is minor project
 #To implement linear regression without using Sklearn
 #I have used analytical or normal method(Normalization method) to make my own LR program....
 #below is the code for Linear regression....
